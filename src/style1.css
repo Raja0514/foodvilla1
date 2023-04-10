@@ -1,0 +1,102 @@
+.header1 {
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid red;
+  align-items: center;
+  margin: 10px;
+}
+
+.header1 > ul {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header1 > ul > li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+img {
+  width: 90px;
+}
+
+.body {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid green;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card1 {
+  width: 270px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.card1 > img{
+  width: 100%;
+}
+
+.searchbar{
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.Footer{
+  display: flex;
+  justify-content:center;
+  border: 1px solid red;
+  align-items: center;
+  margin: 10px;
+}
+
+input[type="text"]::placeholder {
+                 
+  /* Firefox, Chrome, Opera */
+    text-align: center;
+}
+
+.shimmer-card{
+  width: 200px;
+  height: 200px;
+  background-color: lightgrey;
+  margin: 20px;
+  
+}
+
+.card5 {
+  display: flex;
+  width: 97%;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+.card5 > img{
+  width: 100%;
+}
+
+.card7 {
+  width: 470px;
+  
+}
+
+.card7 > img{
+  width: 100%;
+}
